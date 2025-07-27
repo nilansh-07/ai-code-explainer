@@ -25,7 +25,7 @@ app.use(limiter);
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://ai-code-explainer.vercel.app'] 
+    ? ['ai-code-explainer-git-main-nilansh-07-projects.vercel.app'] 
     : ['http://localhost:3000', 'http://127.0.0.1:3000'],
   credentials: true,
   methods: ['GET', 'POST', 'OPTIONS'],
